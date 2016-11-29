@@ -1,5 +1,5 @@
-New log file opened at Wed Nov 23 16:34:33 CST 2016 by 9700@zhangzheng-PC
-jvm 9700@zhangzheng-PC
+New log file opened at Thu Nov 24 09:46:24 CST 2016 by 6320@zhangzheng-PC
+jvm 6320@zhangzheng-PC
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.92-b14
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\project, returning: (hello-akka-build)
 Loading project definition from C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@58854ac8, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@3ffbd365, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -66,9 +66,3264 @@ Set current project to hello-akka (in build file:/C:/Users/zheng.zhang/Documents
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@29a0ca75, check cycles: false
-Read from stdout: Updating {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka...
-Updating {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka...
+Running task... Cancel: sbt.server.ServerTaskCancellation@223f0a84, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 2016-11-24 9:46:29
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@368a9e82, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 1 s, completed 2016-11-24 9:46:30
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@b506bf6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2016-11-24 9:46:30
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d4b88f5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 0 s, completed 2016-11-24 9:46:31
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@65bacd62, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
-Waiting for lock on C:\Users\zheng.zhang\.ivy2\.sbt.ivy.lock to be available...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7d5b1d43, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 5.924294256 s
+Invalidating C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Invalidating (transitively) by inheritance from C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Initial set of included nodes: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+The C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 7 s, completed 2016-11-24 16:04:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaScala
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@56f99045, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:04:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4dfb905, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 2ef6718f, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor
+import scala.actors.Actor
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:3: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:3: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! Something(111111111111L, "zz", 1.5)
+    actor1 ! Something(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: not found: value Something
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: not found: value Something
+Read from stdout: actor1 ! Something(111111111111L, "zz", 1.5)
+    actor1 ! Something(111111111111L, "zz", 1.5)
+Read from stdout: ^
+             ^
+Read from stdout: 7 errors found
+7 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed 2016-11-24 16:14:38
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@ec4d7c0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 168f6d4a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor
+import scala.actors.Actor
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:3: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:3: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:15:32
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d70e206, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 39a7bc39, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor
+import scala.actors.Actor
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:3: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:3: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:16:27
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3b9cd708, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 21195fff, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor
+import scala.actors.Actor
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:5: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:5: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:17:16
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@411d06cb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4f77b290, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor._
+import scala.actors.Actor._
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:5: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:5: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:18:15
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f30ae00, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3bb408ab, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor
+import scala.actors.Actor
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:2: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:2: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor._
+import scala.actors.Actor._
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:6: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:9: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:9: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:21: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:21: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: 7 errors found
+7 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:18:34
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@13aaf14a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 2a8b6efb, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:1: object actors is not a member of package scala
+Read from stdout: import scala.actors.Actor
+import scala.actors.Actor
+Read from stdout: ^
+             ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:5: not found: type Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:5: not found: type Actor
+Read from stdout: class HiActor extends Actor {
+class HiActor extends Actor {
+Read from stdout: ^
+                      ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: not found: value receive
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: not found: value receive
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+            ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:18:51
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@184175a5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 34b2b6a4, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:9: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Any
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:9: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Any
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+                    ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:21: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:21: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:27:43
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@62881801, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 1ae9276d, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:9: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Any
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:9: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Any
+Read from stdout: receive {
+            receive {
+Read from stdout: ^
+                    ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:21: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:21: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:28:10
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@44476b4b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 6c8b0926, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def       receive {
+     def       receive {
+Read from stdout: ^
+                       ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:28:46
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@25a30e6d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 73c85b9c, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:29:00
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5a9bda4e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 20206b07, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:20: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:30:21
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@f133704, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler f28d07d, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:30:47
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2bbeaad, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 662d0dfa, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:17: value start is not a member of HiActor
+Read from stdout: actor1.start()
+    actor1.start()
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value ! is not a member of HiActor
+Read from stdout: actor1 ! "Hi"
+    actor1 ! "Hi"
+Read from stdout: ^
+           ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:19: value ! is not a member of HiActor
+Read from stdout: actor1 ! Pay(111111111111L, "zz", 1.5)
+    actor1 ! Pay(111111111111L, "zz", 1.5)
+Read from stdout: ^
+           ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:32:48
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@af0e1d8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 31cf3e91, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+Read from stdout: val actor1 = Actor.actorOf(classOf[HiActor]).start
+    val actor1 = Actor.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:35:23
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7b5cf099, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7a9b443f, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+Read from stdout: val actor1 = Actor.actorOf(classOf[HiActor]).start
+    val actor1 = Actor.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:35:51
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4db513cb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler f30de19, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+Read from stdout: val actor1 = Actor.actorOf(classOf[HiActor]).start
+    val actor1 = Actor.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:36:08
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4bdf47f7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3a500ec2, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+Read from stdout: The argument types of an anonymous function must be fully known. (SLS 8.5)
+Read from stdout: Expected type was: Unit
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:8: missing parameter type for expanded function
+The argument types of an anonymous function must be fully known. (SLS 8.5)
+Expected type was: Unit
+Read from stdout: def receive {
+    def receive {
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+Read from stdout: val actor1 = Actor.actorOf(classOf[HiActor]).start
+    val actor1 = Actor.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:38:39
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@39a7bae5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 16d2987a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:16: value actorOf is not a member of object akka.actor.Actor
+Read from stdout: val actor1 = Actor.actorOf(classOf[HiActor]).start
+    val actor1 = Actor.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:39:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@54e735c7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 58365b7d, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: type mismatch;
+Read from stdout: found   : Class[HiActor](classOf[HiActor])
+Read from stdout: required: akka.actor.Props
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: type mismatch;
+ found   : Class[HiActor](classOf[HiActor])
+ required: akka.actor.Props
+Read from stdout: val actor1 = system.actorOf(classOf[HiActor]).start
+    val actor1 = system.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:40:29
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@50b41e16, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 1e2b2d8e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: type mismatch;
+Read from stdout: found   : Class[HiActor](classOf[HiActor])
+Read from stdout: required: akka.actor.Props
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: type mismatch;
+ found   : Class[HiActor](classOf[HiActor])
+ required: akka.actor.Props
+Read from stdout: val actor1 = system.actorOf(classOf[HiActor]).start
+    val actor1 = system.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:40:35
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@57aa7eb0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 384573bf, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: type mismatch;
+Read from stdout: found   : Class[HiActor](classOf[HiActor])
+Read from stdout: required: akka.actor.Props
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: type mismatch;
+ found   : Class[HiActor](classOf[HiActor])
+ required: akka.actor.Props
+Read from stdout: val actor1 = system.actorOf(classOf[HiActor]).start
+    val actor1 = system.actorOf(classOf[HiActor]).start
+Read from stdout: ^
+                                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:40:43
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@64901758, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 5424deac, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of akka.actor.ActorRef
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:18: value start is not a member of akka.actor.ActorRef
+Read from stdout: val actor1 = system.actorOf(Props[HiActor]).start
+    val actor1 = system.actorOf(Props[HiActor]).start
+Read from stdout: ^
+                                                ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:41:09
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@22c9db3c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 6959d5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 2.56927692 s
+Invalidating C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Invalidating (transitively) by inheritance from C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Initial set of included nodes: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+The C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 2016-11-24 16:41:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@3dd538d1, check cycles: false
+Total time: 0 s, completed 2016-11-24 16:41:53
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+> server-handle-next-server-request
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> backgroundRunMain HelloAkkaScala
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@4405b36e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:41:53
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@7398009, check cycles: false
+Exception in thread "sbt-bg-threads-2" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 16:42:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaScala
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@5fe3cd43, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:42:17
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@374ad9aa, check cycles: false
+Exception in thread "sbt-bg-threads-3" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+Total time: 0 s, completed 2016-11-24 16:42:34
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+> server-post-command-cleanup
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@705dae85, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:42:35
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@326e18c1, check cycles: false
+Exception in thread "sbt-bg-threads-4" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+Total time: 0 s, completed 2016-11-24 16:42:58
+> server-post-command-cleanup
+> server-handle-next-server-request
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@49d691e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:43:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3b2cff00, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 56892b2a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 1.078595297 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 16:43:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 5
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@615042e1, check cycles: false
+Total time: 0 s, completed 2016-11-24 16:43:54
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-6" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+> server-handle-next-server-request
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@52867bd3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:43:54
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 6
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@22f101b1, check cycles: false
+Total time: 0 s, completed 2016-11-24 16:50:11
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-7" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@58f082a2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2016-11-24 16:50:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaScala
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@2457f8e1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:50:37
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3bd50d14, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 342793f8, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: value += is not a member of Double
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: value += is not a member of Double
+Read from stdout: money += 1
+                money += 1
+Read from stdout: ^
+                      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:56:06
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6fd5d6c9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 2ffad4ad, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: value += is not a member of Double
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: value += is not a member of Double
+Read from stdout: money += 1
+                money += 1
+Read from stdout: ^
+                      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:56:34
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3b7964bf, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 51c0a8a5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: value += is not a member of Double
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: value += is not a member of Double
+Read from stdout: money += 1
+                money += 1
+Read from stdout: ^
+                      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 2016-11-24 16:56:57
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@42d7022c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 39ea3610, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Read from stdout: C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: reassignment to val
+C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala:13: reassignment to val
+Read from stdout: money = money + 1
+                money = money + 1
+Read from stdout: ^
+                      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 1 s, completed 2016-11-24 16:57:23
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7cdb1ccc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler fe89f91, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.862992243 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 16:58:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 7
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@3e837bb6, check cycles: false
+Exception in thread "sbt-bg-threads-9" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 16:58:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaScala
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@615a55bc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:58:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@31332067, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4ea33a2c, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.809510693 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 16:59:00
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 8
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1bc345d6, check cycles: false
+Exception in thread "sbt-bg-threads-10" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 16:59:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@2b79e4b8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:59:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@43845e0e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7003e884, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.76215322 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 16:59:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 9
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@694ac8a7, check cycles: false
+Total time: 0 s, completed 2016-11-24 16:59:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Exception in thread "sbt-bg-threads-11" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@18683ae0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:59:13
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@246fe70b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler f0bb87, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.747114172 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 16:59:18
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 10
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1a26ea71, check cycles: false
+Total time: 0 s, completed 2016-11-24 16:59:18
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@204060a, check cycles: false
+Exception in thread "sbt-bg-threads-12" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:59:18
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 11
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@436fac78, check cycles: false
+Total time: 0 s, completed 2016-11-24 16:59:22
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-13" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@12a263a1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2016-11-24 16:59:34
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@27062931, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 16:59:34
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 12
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@7f9b9341, check cycles: false
+Exception in thread "sbt-bg-threads-15" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 17:00:22
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@507d4eef, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:00:27
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@787063cf, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 16fc521d, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.712646791 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 17:03:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 13
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@79e545fd, check cycles: false
+Exception in thread "sbt-bg-threads-17" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 17:03:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@2f3a9039, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:03:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@66be8edd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7bff51eb, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.807770274 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 17:03:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 14
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@45c7a879, check cycles: false
+Total time: 0 s, completed 2016-11-24 17:03:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@8c5f933, check cycles: false
+Exception in thread "sbt-bg-threads-18" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:03:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 15
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@2b8b960b, check cycles: false
+Exception in thread "sbt-bg-threads-19" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+Total time: 0 s, completed 2016-11-24 17:03:36
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+> server-post-command-cleanup
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@687ce3e4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:03:38
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7995e180, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 143c493a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.684203504 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 17:04:12
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 16
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1da14526, check cycles: false
+Exception in thread "sbt-bg-threads-20" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 17:04:12
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@6eb358cd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:04:12
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@723baf6d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 5d4d1eb4, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.750694992 s
+Invalidating C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Invalidating (transitively) by inheritance from C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Initial set of included nodes: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+The C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 17:08:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 17
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@5538aae7, check cycles: false
+Exception in thread "sbt-bg-threads-21" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 17:08:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7989fe3f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:08:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@233976ff, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 13d22853, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes;C:\Users\zheng.zhang\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\target\scala-2.11\classes;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\zheng.zhang\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.4.0.jar
+Scala compilation took 0.776322554 s
+Invalidating C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Invalidating (transitively) by inheritance from C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala...
+Initial set of included nodes: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala)
+The C:\Users\zheng.zhang\Documents\Node\GitHub\hello-akka\src\main\scala\HiActor.scala source file has the following regular definitions changed:
+	actor2.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 2016-11-24 17:11:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 18
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@fd99d49, check cycles: false
+Exception in thread "sbt-bg-threads-22" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Total time: 0 s, completed 2016-11-24 17:11:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HiActor
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@c4c94b9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 2016-11-24 17:11:24
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@31c20307, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 2016-11-24 17:39:09
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/zheng.zhang/Documents/Node/GitHub/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@65be2c92, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 0 s, completed 2016-11-24 17:39:09
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 6320@zhangzheng-PC logs at Thu Nov 24 17:39:12 CST 2016, goodbye.

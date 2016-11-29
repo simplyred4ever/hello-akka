@@ -1,64 +1,13 @@
-New log file opened at Wed Nov 23 16:50:18 CST 2016 by 8960@zhangzheng-PC
-Taking next connection to: 55750
-New client attempting to connect on port: 55751-55750
-  Address = /192.168.113.249:55750
-This client on port 55751 has uuid 4dc4b58b-c268-4630-9ebd-d4f0c584dfd1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-4dc4b58b-c268-4630-9ebd-d4f0c584dfd1
-Taking next connection to: 55750
+New log file opened at Thu Nov 24 17:39:22 CST 2016 by 7992@zhangzheng-PC
+Taking next connection to: 59449
+New client attempting to connect on port: 59450-59449
+  Address = /192.168.113.249:59449
+This client on port 59450 has uuid a3afe3ae-75e3-4c2c-8344-19c675f4a29f configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-a3afe3ae-75e3-4c2c-8344-19c675f4a29f
+Taking next connection to: 59449
 Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 55750
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 55750
-New client attempting to connect on port: 56012-55750
-  Address = /192.168.113.249:55750
-Handshake exception on socket: 56012
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:170)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 55750
-New client attempting to connect on port: 56013-55750
-  Address = /192.168.113.249:55750
-This client on port 56013 has uuid 47188f85-1529-47ba-b1da-db19967bb550 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-4dc4b58b-c268-4630-9ebd-d4f0c584dfd1, activator-47188f85-1529-47ba-b1da-db19967bb550
-Taking next connection to: 55750
-New client attempting to connect on port: 56068-55750
-  Address = /192.168.113.249:55750
-Handshake exception on socket: 56068
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:170)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 55750
-New client attempting to connect on port: 56069-55750
-  Address = /192.168.113.249:55750
-This client on port 56069 has uuid 27c4b60e-35c5-4a98-9dc8-4f226675850f configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-47188f85-1529-47ba-b1da-db19967bb550, activator-27c4b60e-35c5-4a98-9dc8-4f226675850f
-Taking next connection to: 55750
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 55750
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 7992@zhangzheng-PC logs at Thu Nov 24 17:42:23 CST 2016, goodbye.
